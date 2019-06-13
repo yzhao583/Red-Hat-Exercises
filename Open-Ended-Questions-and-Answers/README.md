@@ -73,7 +73,7 @@ On this page, all questions and answers are shown.
 * The way of thinking
     Working in the software development field changes my way of thinking a lot. To make myself a great developer, I have to think more and more logically, and I have to always think about how to optimise things. I have to be detail-oriented, and always think about how to do things more and more efficient. I have to keep myself updated, and always be patient enough. As a result, I feel like I am becoming better and better, which is very exciting.
 
-### In your career to date, what are you most proud of and why?
+### Q2 In your career to date, what are you most proud of and why?
 
 * I always keep learning
     As a engineer, I have to keep myself up-to-date, I have to learn new tecnologies everyday. For example, I learnt to write javascript code and test them, and then I found new tecnologies like Angular or React can do the same thing but more efficient, and then I figured out that Angular or React are just the tools, which is not very important, and what really matters is the thoughs you design your applications. After that, I found that the AI can create web pages themself, then I became more interested in AI...All in all, technologies changes the world so much, and I am learning them everyday.
