@@ -1,0 +1,5 @@
+#ignore vscode related files
+/.vscode
+
+#ignore local history related files
+/.history
