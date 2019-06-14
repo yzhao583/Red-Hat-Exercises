@@ -3,3 +3,6 @@
 
 #ignore local history related files
 /.history
+
+#ignore node_modules
+/practical-exercise-one/node_modules
