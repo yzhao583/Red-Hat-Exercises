@@ -1,0 +1,15 @@
+{
+    "name": "practical-exercise-one",
+    "description": "",
+    "version": "1.0.0",
+    "main": "async-call-promise-version.js",
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha test/*.spec.js"
+    },
+    "author": "Yu Zhao",
+    "license": "MIT",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^6.1.4"
+    }
+}
