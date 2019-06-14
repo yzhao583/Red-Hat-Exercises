@@ -4,12 +4,14 @@
     "version": "1.0.0",
     "main": "async-call-promise-version.js",
     "scripts": {
+        "start": "node src/app.js",
         "test": "./node_modules/mocha/bin/mocha test/*.spec.js"
     },
     "author": "Yu Zhao",
     "license": "MIT",
     "dependencies": {
         "chai": "^4.2.0",
-        "mocha": "^6.1.4"
+        "mocha": "^6.1.4",
+        "sinon": "^7.3.2"
     }
 }
