@@ -43,7 +43,7 @@ function callOneService() {
 function callTwoService() {
     return new Promise(function (resolve) {
         setTimeout(function () {
-            resolve(1);
+            resolve(2);
         }, 1500);
     });
 }

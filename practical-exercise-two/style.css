@@ -1,0 +1,5 @@
+/* Import style sheets of the components */
+@import './css/general.css';
+@import './css/box.css';
+@import './css/tabs.css';
+@import './css/panel.css';
