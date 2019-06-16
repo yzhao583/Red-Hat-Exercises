@@ -1,0 +1,43 @@
+/****************************************************************
+ 
+-------------------------- TABS ------------------------------
+ 
+****************************************************************/
+
+.tabs {
+
+    height: 100%;
+
+}
+
+.tabs>button {
+
+    height: 100%;
+    width: 5vw;
+    background: transparent;
+    border-left: 1px solid var(--white);
+    border-right: none;/* Remove default button border*/
+    border-top: none;/* Remove default button border*/
+    border-bottom: none;/* Remove default button border*/
+    color: var(--white);
+    letter-spacing: 1px;
+    font-size: inherit;
+    outline: none;
+    display: block;
+    float: left;
+    opacity: 0.7;
+
+
+}
+
+.tabs>button:hover,
+.tabs>button:active {
+
+    /* Add box shadow */
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+
+    /* Change pointer */
+    cursor: pointer;
+}

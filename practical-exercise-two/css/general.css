@@ -1,0 +1,44 @@
+/****************************************************************
+ 
+-------------------------- GENERAL ------------------------------
+ 
+****************************************************************/
+
+:root {
+  --red: #c00;
+  --red-darker: #470000;
+  --grey: #bbb;
+  --grey-lighter: #ededed;
+  --white: #ffffff;
+}
+
+body {
+
+  margin: 0;
+
+  font-family: Overpass, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 1vw;
+
+}
+
+.logo {
+
+  color: var(--white);
+  font-size: 1.1vw;
+  font-weight: bold;
+  padding: 1% 1.5vw;
+  position: relative;
+
+}
+
+.active-status-bar {
+
+  background: green;
+  color: var(--white);
+  width: 4vw;
+  padding: 0px 2px;
+  text-align: center;
+  border-radius: 3px;
+
+}

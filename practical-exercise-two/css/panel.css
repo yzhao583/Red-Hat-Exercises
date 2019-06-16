@@ -1,0 +1,43 @@
+/****************************************************************
+ 
+-------------------------- PANEL ------------------------------
+ 
+****************************************************************/
+
+.panel {
+
+    padding: 15px;
+
+}
+
+.panel-header>h1 {
+
+    margin: 0px;
+
+}
+
+.panel-table>table {
+
+    width: 100%;
+    border-spacing: 0px;
+
+}
+
+.panel-table>table tr {
+
+    padding: 10px 0px;
+    height: 3vw;
+
+}
+
+.panel-table>table .key-cell {
+
+    font-weight: bold;
+
+}
+
+.panel-table>table .value-cell {
+
+    opacity: 0.8;
+
+}
