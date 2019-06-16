@@ -1,0 +1,32 @@
+.basic-table-container {
+
+    padding-bottom: 40px;
+
+    h2 {
+        margin-bottom: 18px !important;
+    }
+
+    @extend .no-bottom-border;
+
+}
+
+.no-bottom-border {
+
+    .ui.table tr td {
+        border: none !important;
+    }
+
+}
+
+.content-cell {
+
+    text-transform: capitalize;
+
+}
+
+.title-cell {
+
+    vertical-align: top;
+    padding-top: 7px;
+
+}
