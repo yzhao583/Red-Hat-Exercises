@@ -3,7 +3,7 @@ import Validator from "../utils/validator";
 import Formatter from "../utils/formatter";
 import Filter from "../utils/filter";
 
-const baseUrl = "http://jsonplaceholder.typicode.com";
+const baseUrl = "https://jsonplaceholder.typicode.com";
 
 class Api {
   static getUsers = () => {
