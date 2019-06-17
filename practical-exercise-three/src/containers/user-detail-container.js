@@ -64,7 +64,7 @@ class UserDetailContainer extends Component {
       !Validator.isEmptyArray(companyInfoList)
     ) {
       return (
-        <Segment>
+        <Segment className="user-detail-container">
           <Link to="/users"><Icon disabled name='arrow left' />Back to user table</Link>
           <h1>User Details</h1>
           <Grid className="fade-in">
