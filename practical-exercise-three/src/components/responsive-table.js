@@ -24,18 +24,7 @@ class ResponsiveTable extends Component {
     super(props);
 
     this.state = {
-      data: props.data,
-      loading: props.loading,
-      headers: props.headers,
-      pages: props.pages,
-      sortable: props.sortable,
-      onRowClick: props.onRowClick,
-      manual: props.manual,
-      showPagination: props.showPagination,
-      subComponent: props.subComponent,
-      theadComponent: props.theadComponent,
-      defaultSortCol: props.defaultSortCol,
-      defaultSortOrder: props.defaultSortOrder
+      data: props.data
     };
   }
 
@@ -75,9 +64,9 @@ class ResponsiveTable extends Component {
       subComponent,
       theadComponent,
       defaultSortCol,
-      defaultSortOrder
-    } = this.state;
-    const { expandedRows } = this.props;
+      defaultSortOrder,
+      expandedRows
+    } = this.props;
 
     let classes = "-highlight responsive-table";
     let isSortHandledByServer = false;
